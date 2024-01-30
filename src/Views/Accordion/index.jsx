@@ -33,9 +33,11 @@ const index = () => {
     if (index === expandedIndex) {
       // for closing 
       setExpandedIndex((prev)=> !prev);
+      console.log("CLOSE : index === expandedIndex")
     } else {
       // for opening
       setExpandedIndex(index);
+      console.log("OPEN : index === expandedIndex")
     }
       // console.log("div index", index)
   };
