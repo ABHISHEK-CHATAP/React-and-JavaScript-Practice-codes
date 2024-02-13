@@ -1,10 +1,14 @@
-import Accordion from "./Views/Accordion"
+import Accordion from "./Views/Accordion";
+import Dropdown from "./Views/Dropdown";
 
 function App() {
 
   return (
     <>
-    <Accordion/>
+    {/* <Accordion/> */}
+
+    {/*  nested-Dropdown  */}
+    <Dropdown/>
 
     </>
   )
